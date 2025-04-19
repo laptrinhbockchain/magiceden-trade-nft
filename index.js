@@ -6,7 +6,8 @@ const chainId = 10143;
 const skipBalanceCheck = false;
 const WMON = "0x760AfE86e5de5fa0Ee542fc7B7B713e1c5425701";
 const diffPriceMin = 0.0001;
-const collectionId = "0x7bbd69551c73d149846df55cd5ff5f0a691bd0f7";	// Bitcoin to the moon
+// const collectionId = "0x7bbd69551c73d149846df55cd5ff5f0a691bd0f7";	// Bitcoin to the moon
+const collectionId = "0xe25c57ff3eea05d0f8be9aaae3f522ddc803ca4e";  // Monadverse: Chapter 1
 const botPk = process.env.BOT_PK;
 
 async function convertWmon2Mon(web3, botPk) {

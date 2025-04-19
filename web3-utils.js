@@ -138,14 +138,3 @@ async function waitForTransaction(web3, txId, delayInMs, timeoutInSec=300) {
     }
 }
 exports.waitForTransaction = waitForTransaction;
-
-async function test() {
-    let web3 = getWeb3();
-    
-    let result = await hexaToDecimal(web3, "0x4353453535");
-
-    // let result = await waitForTransaction(web3, "0x5a613cdd89a894aa9de019f1cee097ee08e9411f5998d6c329023446b657f4c7", 100);
-    
-    console.log("Result:", result);
-}
-// test();
