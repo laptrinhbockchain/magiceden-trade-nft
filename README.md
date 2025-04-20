@@ -1,6 +1,6 @@
 # Trade NFT on MagicEden
 
-A simple bot that arbitrages NFTs on the Monad Testnet. You can extend it to support multiple blockchains.
+A simple bot that arbitrages NFTs on the Monad Testnet using MagicEden API. You can extend it to support multiple blockchains.
 
 ## 1. Requirement
 - NodeJs version 18 or newer
@@ -32,4 +32,4 @@ node index.js
 ```
 
 If you want to know more details, please refer to the article:
-[Hướng dẫn lập trình bot tìm kiếm cơ hội giao dịch chênh lệch giá NFT trên blockchain Monad Testnet với nền tảng MagicEden](https://laptrinhblockchain.net/huong-dan-lap-trinh-su-dung-nodejs-de-mua-ban-nft-tren-nen-tang-magiceden-su-dung-blockchain-monad-testnet/)
+[Hướng dẫn lập trình bot tìm kiếm cơ hội giao dịch chênh lệch giá NFT trên blockchain Monad Testnet sử dụng nền tảng MagicEden](https://laptrinhblockchain.net/huong-dan-lap-trinh-su-dung-nodejs-de-mua-ban-nft-tren-nen-tang-magiceden-su-dung-blockchain-monad-testnet/)
